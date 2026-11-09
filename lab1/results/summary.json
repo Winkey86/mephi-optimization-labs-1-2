@@ -1,0 +1,275 @@
+{
+  "scenarios": {
+    "base": {
+      "status": "Optimal",
+      "optimal": true,
+      "seconds": 0.000902457999472972,
+      "simplex_iterations": 2,
+      "ipm_iterations": 0,
+      "nodes": 0,
+      "mip_gap": null,
+      "objective": 44783.0,
+      "x": [
+        5.0,
+        20.0,
+        8.04,
+        19.0,
+        0.0,
+        8.240000000000004,
+        17.0,
+        0.0
+      ],
+      "rhs": [
+        26.42,
+        27.27,
+        20.3
+      ]
+    },
+    "deficit": {
+      "status": "Optimal",
+      "optimal": true,
+      "seconds": 0.00013304200547281653,
+      "simplex_iterations": 2,
+      "ipm_iterations": 0,
+      "nodes": 0,
+      "mip_gap": null,
+      "objective": 37975.56,
+      "x": [
+        5.0,
+        20.0,
+        3.0,
+        19.0,
+        0.0,
+        2.5900000000000034,
+        17.0,
+        0.0
+      ],
+      "rhs": [
+        21.136000000000003,
+        27.27,
+        20.3
+      ]
+    },
+    "stress": {
+      "status": "Infeasible",
+      "optimal": false,
+      "seconds": 4.6332999772857875e-05,
+      "simplex_iterations": 0,
+      "ipm_iterations": 0,
+      "nodes": 0,
+      "mip_gap": null,
+      "objective": null,
+      "x": null,
+      "rhs": [
+        4.800000000000001,
+        13.635,
+        20.3
+      ]
+    }
+  },
+  "constrained_oven": 1,
+  "shadow_prices": [
+    1100.0,
+    0.0,
+    360.0
+  ],
+  "shadow_experiments": [
+    {
+      "fraction": 0.001,
+      "delta_h": 0.026420000000000003,
+      "forecast_delta_rub": 29.062,
+      "actual_delta_rub": 29.062000000005355,
+      "prediction_error_rub": 5.353939513952355e-12
+    },
+    {
+      "fraction": 0.01,
+      "delta_h": 0.26420000000000005,
+      "forecast_delta_rub": 290.62000000000006,
+      "actual_delta_rub": 166.41799999999057,
+      "prediction_error_rub": -124.20200000000949
+    },
+    {
+      "fraction": 0.05,
+      "delta_h": 1.3210000000000002,
+      "forecast_delta_rub": 1453.1000000000001,
+      "actual_delta_rub": 661.604285714282,
+      "prediction_error_rub": -791.4957142857181
+    },
+    {
+      "fraction": -0.2,
+      "delta_h": -5.284000000000001,
+      "forecast_delta_rub": -5812.400000000001,
+      "actual_delta_rub": -6807.440000000002,
+      "prediction_error_rub": -995.0400000000018
+    }
+  ],
+  "dual": {
+    "objective_with_constant": 44783.0,
+    "strong_duality_error": 0.0,
+    "dual_violation": 1.1368683772161603e-13,
+    "complementarity_max": 4.320099833421409e-12
+  },
+  "benchmark": [
+    {
+      "n": 40,
+      "m": 15,
+      "algorithm": "simplex",
+      "median_seconds": 0.00020304200006648898,
+      "median_iterations": 27.0,
+      "objective": 1586.3708646500636
+    },
+    {
+      "n": 40,
+      "m": 15,
+      "algorithm": "ipm",
+      "median_seconds": 0.0006374580043484457,
+      "median_iterations": 11.0,
+      "objective": 1586.3708646500636
+    },
+    {
+      "n": 80,
+      "m": 30,
+      "algorithm": "simplex",
+      "median_seconds": 0.00039295800524996594,
+      "median_iterations": 40.0,
+      "objective": 2842.101980029661
+    },
+    {
+      "n": 80,
+      "m": 30,
+      "algorithm": "ipm",
+      "median_seconds": 0.0011593749950407073,
+      "median_iterations": 12.0,
+      "objective": 2842.101980029659
+    },
+    {
+      "n": 120,
+      "m": 45,
+      "algorithm": "simplex",
+      "median_seconds": 0.000716499998816289,
+      "median_iterations": 63.0,
+      "objective": 4873.8715735930855
+    },
+    {
+      "n": 120,
+      "m": 45,
+      "algorithm": "ipm",
+      "median_seconds": 0.0016803329999675043,
+      "median_iterations": 11.0,
+      "objective": 4873.87157359309
+    },
+    {
+      "n": 160,
+      "m": 60,
+      "algorithm": "simplex",
+      "median_seconds": 0.0009647499973652884,
+      "median_iterations": 63.0,
+      "objective": 6194.47037903907
+    },
+    {
+      "n": 160,
+      "m": 60,
+      "algorithm": "ipm",
+      "median_seconds": 0.002417249997961335,
+      "median_iterations": 12.0,
+      "objective": 6194.470379039072
+    },
+    {
+      "n": 200,
+      "m": 75,
+      "algorithm": "simplex",
+      "median_seconds": 0.00181245800195029,
+      "median_iterations": 110.0,
+      "objective": 8198.520288907814
+    },
+    {
+      "n": 200,
+      "m": 75,
+      "algorithm": "ipm",
+      "median_seconds": 0.0038452500011771917,
+      "median_iterations": 13.0,
+      "objective": 8198.520288907806
+    },
+    {
+      "n": 240,
+      "m": 90,
+      "algorithm": "simplex",
+      "median_seconds": 0.0026316669973311946,
+      "median_iterations": 130.0,
+      "objective": 9582.995757852215
+    },
+    {
+      "n": 240,
+      "m": 90,
+      "algorithm": "ipm",
+      "median_seconds": 0.004782167001394555,
+      "median_iterations": 13.0,
+      "objective": 9582.995757852197
+    },
+    {
+      "n": 280,
+      "m": 105,
+      "algorithm": "simplex",
+      "median_seconds": 0.0031602090020896867,
+      "median_iterations": 134.0,
+      "objective": 10778.544762166473
+    },
+    {
+      "n": 280,
+      "m": 105,
+      "algorithm": "ipm",
+      "median_seconds": 0.007189042000391055,
+      "median_iterations": 15.0,
+      "objective": 10778.544762166472
+    },
+    {
+      "n": 320,
+      "m": 120,
+      "algorithm": "simplex",
+      "median_seconds": 0.00491291700018337,
+      "median_iterations": 185.0,
+      "objective": 13381.41324653628
+    },
+    {
+      "n": 320,
+      "m": 120,
+      "algorithm": "ipm",
+      "median_seconds": 0.008736499999940861,
+      "median_iterations": 14.0,
+      "objective": 13381.413246536642
+    },
+    {
+      "n": 360,
+      "m": 135,
+      "algorithm": "simplex",
+      "median_seconds": 0.006720291996316519,
+      "median_iterations": 225.0,
+      "objective": 13713.005769335452
+    },
+    {
+      "n": 360,
+      "m": 135,
+      "algorithm": "ipm",
+      "median_seconds": 0.011968041995714884,
+      "median_iterations": 15.0,
+      "objective": 13713.005769335425
+    },
+    {
+      "n": 400,
+      "m": 150,
+      "algorithm": "simplex",
+      "median_seconds": 0.008144500003254507,
+      "median_iterations": 232.0,
+      "objective": 16778.80433677235
+    },
+    {
+      "n": 400,
+      "m": 150,
+      "algorithm": "ipm",
+      "median_seconds": 0.014024125004652888,
+      "median_iterations": 15.0,
+      "objective": 16778.804336772446
+    }
+  ],
+  "host": "macOS-26.6.2-arm64-arm-64bit"
+}

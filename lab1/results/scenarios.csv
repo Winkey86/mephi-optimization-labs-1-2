@@ -1,0 +1,4 @@
+﻿scenario,status,optimal,seconds,simplex_iterations,ipm_iterations,nodes,mip_gap,objective
+base,Optimal,True,0.000902457999472972,2,0,0,,44783.0
+deficit,Optimal,True,0.00013304200547281653,2,0,0,,37975.56
+stress,Infeasible,False,4.6332999772857875e-05,0,0,0,,

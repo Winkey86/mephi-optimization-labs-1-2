@@ -1,0 +1,73 @@
+Running HiGHS 1.15.1 (git hash: 04024d7): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+LP has 120 rows; 320 cols; 13510 nonzeros
+Coefficient ranges:
+  Matrix  [1e-01, 1e+00]
+  Cost    [1e+00, 3e+01]
+  Bound   [1e+00, 8e+00]
+  RHS     [8e+01, 1e+02]
+Presolving model
+120 rows, 320 cols, 13510 nonzeros 0s
+120 rows, 320 cols, 13510 nonzeros 0s
+Presolve reductions: rows 120(-0); columns 320(-0); nonzeros 13510(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+IPX model has 120 rows, 320 columns and 13510 nonzeros
+Input
+    Number of variables:                                320
+    Number of free variables:                           0
+    Number of constraints:                              120
+    Number of equality constraints:                     0
+    Number of matrix entries:                           13510
+    Matrix range:                                       [1e-01, 1e+00]
+    RHS range:                                          [8e+01, 1e+02]
+    Objective range:                                    [1e+00, 3e+01]
+    Bounds range:                                       [1e+00, 8e+00]
+Preprocessing
+    Dualized model:                                     no
+    Number of dense columns:                            0
+    Range of scaling factors:                           [1.00e+00, 1.00e+00]
+    Scaled cost norm:                                   29.9557
+    Scaled bounds norm:                                 149.273
+IPX version 1.0
+Interior point solve
+ Iter       primal obj         dual obj       pinf       dinf       gap      time
+   0   -8.90015525e+03  -4.13641253e+04   1.81e-01   7.11e-01  1.29e+00       0.0
+   1   -8.43697994e+03  -3.72316268e+04   7.61e-03   1.84e-01  1.26e+00       0.0
+   2   -9.96635558e+03  -1.90597035e+04   7.61e-09   3.44e-02  6.27e-01       0.0
+   3   -1.23290213e+04  -1.46281572e+04   1.19e-09   3.86e-03  1.71e-01       0.0
+   4   -1.28680728e+04  -1.39674476e+04   5.20e-10   1.21e-03  8.19e-02       0.0
+   5   -1.32245254e+04  -1.36609424e+04   1.33e-10   5.17e-04  3.25e-02       0.0
+ Constructing starting basis...
+ Iter       primal obj         dual obj       pinf       dinf       gap      time
+   6   -1.33054422e+04  -1.35099544e+04   5.17e-11   2.07e-04  1.53e-02       0.0
+   7   -1.33366075e+04  -1.34504137e+04   1.98e-11   6.71e-05  8.50e-03       0.0
+   8   -1.33681138e+04  -1.34082078e+04   5.03e-12   2.33e-05  2.99e-03       0.0
+   9   -1.33773584e+04  -1.33955323e+04   9.42e-13   1.11e-05  1.36e-03       0.0
+  10   -1.33805396e+04  -1.33843012e+04   8.50e-14   1.78e-06  2.81e-04       0.0
+  11   -1.33813112e+04  -1.33820817e+04   7.77e-15   3.96e-07  5.76e-05       0.0
+  12   -1.33814076e+04  -1.33815176e+04   8.63e-16   6.18e-08  8.22e-06       0.0
+  13   -1.33814132e+04  -1.33814135e+04   7.62e-16   1.47e-10  1.88e-08       0.0
+  14*  -1.33814132e+04  -1.33814132e+04   8.48e-16   4.59e-16  1.18e-14       0.0
+Running crossover as requested
+    Primal residual before push phase:                  5.12e-13
+    Dual residual before push phase:                    2.47e-12
+    Number of dual pushes required:                     0
+    Number of primal pushes required:                   0
+Summary
+    Runtime:                                            0.01s
+    Status interior point solve:                        optimal
+    Status crossover:                                   optimal
+    objective value:                                    -1.33814132e+04
+    interior solution primal residual (abs/rel):        1.42e-13 / 9.46e-16
+    interior solution dual residual (abs/rel):          1.53e-13 / 4.94e-15
+    interior solution objective gap (abs/rel):          2.24e-10 / 1.67e-14
+    basic solution primal infeasibility:                0.00e+00
+    basic solution dual infeasibility:                  0.00e+00
+Ipx: IPM       optimal
+Ipx: Crossover optimal
+
+Model status        : Optimal
+IPM       iterations: 14
+Objective value     :  1.3381413247e+04
+P-D objective error :  6.7964474513e-17
+HiGHS run time      :          0.01

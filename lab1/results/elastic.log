@@ -1,0 +1,19 @@
+Running HiGHS 1.15.1 (git hash: 04024d7): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+LP has 3 rows; 11 cols; 27 nonzeros
+Coefficient ranges:
+  Matrix  [1e-01, 1e+00]
+  Cost    [4e-02, 5e-02]
+  Bound   [3e+00, 2e+01]
+  RHS     [5e+00, 2e+01]
+Presolving model
+0 rows, 0 cols, 0 nonzeros 0s
+0 rows, 0 cols, 0 nonzeros 0s
+Presolve reductions: rows 0(-3); columns 0(-11); nonzeros 0(-27) - Reduced to empty
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Objective value     :  4.5420136260e-02
+P-D objective error :  1.2722108046e-17
+HiGHS run time      :          0.00

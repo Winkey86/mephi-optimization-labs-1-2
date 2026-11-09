@@ -1,0 +1,15 @@
+test_markdown_tables_have_contiguous_rows (test_labs.DeliverableTests.test_markdown_tables_have_contiguous_rows) ... ok
+test_variant_and_optimal_objectives (test_labs.DeliverableTests.test_variant_and_optimal_objectives) ... ok
+test_bakery_rejects_negative_nonfinite_and_wrong_objective (test_labs.IndependentVerificationTests.test_bakery_rejects_negative_nonfinite_and_wrong_objective) ... ok
+test_network_checks_actual_technical_arcs (test_labs.IndependentVerificationTests.test_network_checks_actual_technical_arcs) ... ok
+test_network_rejects_capacity_violation_and_nan (test_labs.IndependentVerificationTests.test_network_rejects_capacity_violation_and_nan) ... ok
+test_valid_bakery_plan (test_labs.IndependentVerificationTests.test_valid_bakery_plan) ... ok
+test_lp_and_integer_solution (test_labs.SolverTests.test_lp_and_integer_solution) ... ok
+test_nonfinite_model_is_rejected (test_labs.SolverTests.test_nonfinite_model_is_rejected) ... ok
+test_solver_setup_survives_python_optimization (test_labs.SolverTests.test_solver_setup_survives_python_optimization) ... ok
+test_statuses (test_labs.SolverTests.test_statuses) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.948s
+
+OK

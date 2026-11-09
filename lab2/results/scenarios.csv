@@ -1,0 +1,6 @@
+﻿scenario,status,optimal,seconds,simplex_iterations,ipm_iterations,nodes,mip_gap,objective
+base,Optimal,True,0.00034066599619109184,9,0,0,,120651.0
+overload,Optimal,True,0.00024595900322310627,9,0,0,,122208.6
+demand_growth,Optimal,True,0.00021637499594362453,9,0,0,,155634.0
+arc_failure,Optimal,True,0.00022049999824957922,10,0,0,,123511.0
+stress,Optimal,True,0.00020924999989802018,9,0,0,,158874.0

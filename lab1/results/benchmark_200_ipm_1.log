@@ -1,0 +1,72 @@
+Running HiGHS 1.15.1 (git hash: 04024d7): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+LP has 75 rows; 200 cols; 5198 nonzeros
+Coefficient ranges:
+  Matrix  [1e-01, 1e+00]
+  Cost    [1e+00, 3e+01]
+  Bound   [1e+00, 8e+00]
+  RHS     [5e+01, 9e+01]
+Presolving model
+75 rows, 200 cols, 5198 nonzeros 0s
+75 rows, 200 cols, 5198 nonzeros 0s
+Presolve reductions: rows 75(-0); columns 200(-0); nonzeros 5198(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+IPX model has 75 rows, 200 columns and 5198 nonzeros
+Input
+    Number of variables:                                200
+    Number of free variables:                           0
+    Number of constraints:                              75
+    Number of equality constraints:                     0
+    Number of matrix entries:                           5198
+    Matrix range:                                       [1e-01, 1e+00]
+    RHS range:                                          [5e+01, 9e+01]
+    Objective range:                                    [1e+00, 3e+01]
+    Bounds range:                                       [1e+00, 8e+00]
+Preprocessing
+    Dualized model:                                     no
+    Number of dense columns:                            0
+    Range of scaling factors:                           [1.00e+00, 1.00e+00]
+    Scaled cost norm:                                   29.8908
+    Scaled bounds norm:                                 88.3972
+IPX version 1.0
+Interior point solve
+ Iter       primal obj         dual obj       pinf       dinf       gap      time
+   0   -5.35349582e+03  -2.65193494e+04   2.09e-01   7.58e-01  1.33e+00       0.0
+   1   -4.94157292e+03  -2.25726243e+04   6.91e-03   1.46e-01  1.28e+00       0.0
+   2   -6.25765993e+03  -1.07935134e+04   6.91e-09   2.73e-02  5.32e-01       0.0
+   3   -7.56421898e+03  -8.97547513e+03   1.82e-09   6.69e-03  1.71e-01       0.0
+   4   -7.90954468e+03  -8.45130518e+03   7.17e-10   1.40e-03  6.62e-02       0.0
+   5   -8.06309323e+03  -8.33477698e+03   3.07e-10   5.64e-04  3.31e-02       0.0
+ Constructing starting basis...
+ Iter       primal obj         dual obj       pinf       dinf       gap      time
+   6   -8.13256092e+03  -8.24337134e+03   1.34e-10   1.00e-04  1.35e-02       0.0
+   7   -8.17354741e+03  -8.21705242e+03   4.99e-11   3.83e-05  5.31e-03       0.0
+   8   -8.18958383e+03  -8.20647534e+03   1.40e-11   1.14e-05  2.06e-03       0.0
+   9   -8.19709082e+03  -8.20104056e+03   1.62e-12   3.00e-06  4.82e-04       0.0
+  10   -8.19841812e+03  -8.19913714e+03   3.06e-14   6.40e-07  8.77e-05       0.0
+  11   -8.19847432e+03  -8.19863283e+03   1.30e-14   1.09e-07  1.93e-05       0.0
+  12   -8.19851992e+03  -8.19852262e+03   6.67e-16   2.07e-09  3.30e-07       0.0
+  13*  -8.19852029e+03  -8.19852029e+03   6.86e-16   2.07e-15  1.35e-12       0.0
+Running crossover as requested
+    Primal residual before push phase:                  4.55e-10
+    Dual residual before push phase:                    5.77e-10
+    Number of dual pushes required:                     0
+    Number of primal pushes required:                   0
+Summary
+    Runtime:                                            0.00s
+    Status interior point solve:                        optimal
+    Status crossover:                                   optimal
+    objective value:                                    -8.19852029e+03
+    interior solution primal residual (abs/rel):        5.68e-14 / 6.36e-16
+    interior solution dual residual (abs/rel):          1.49e-12 / 4.82e-14
+    interior solution objective gap (abs/rel):          1.14e-08 / 1.39e-12
+    basic solution primal infeasibility:                0.00e+00
+    basic solution dual infeasibility:                  0.00e+00
+Ipx: IPM       optimal
+Ipx: Crossover optimal
+
+Model status        : Optimal
+IPM       iterations: 13
+Objective value     :  8.1985202889e+03
+P-D objective error :  2.2185448254e-16
+HiGHS run time      :          0.00

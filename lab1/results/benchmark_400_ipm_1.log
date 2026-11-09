@@ -1,0 +1,74 @@
+Running HiGHS 1.15.1 (git hash: 04024d7): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+LP has 150 rows; 400 cols; 21097 nonzeros
+Coefficient ranges:
+  Matrix  [1e-01, 1e+00]
+  Cost    [1e+00, 3e+01]
+  Bound   [1e+00, 8e+00]
+  RHS     [1e+02, 2e+02]
+Presolving model
+150 rows, 400 cols, 21097 nonzeros 0s
+150 rows, 400 cols, 21097 nonzeros 0s
+Presolve reductions: rows 150(-0); columns 400(-0); nonzeros 21097(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+IPX model has 150 rows, 400 columns and 21097 nonzeros
+Input
+    Number of variables:                                400
+    Number of free variables:                           0
+    Number of constraints:                              150
+    Number of equality constraints:                     0
+    Number of matrix entries:                           21097
+    Matrix range:                                       [1e-01, 1e+00]
+    RHS range:                                          [1e+02, 2e+02]
+    Objective range:                                    [1e+00, 3e+01]
+    Bounds range:                                       [1e+00, 8e+00]
+Preprocessing
+    Dualized model:                                     no
+    Number of dense columns:                            0
+    Range of scaling factors:                           [1.00e+00, 1.00e+00]
+    Scaled cost norm:                                   29.8911
+    Scaled bounds norm:                                 168.262
+IPX version 1.0
+Interior point solve
+ Iter       primal obj         dual obj       pinf       dinf       gap      time
+   0   -1.16795016e+04  -5.36564763e+04   2.02e-01   7.40e-01  1.28e+00       0.0
+   1   -1.02004324e+04  -4.85167999e+04   5.36e-03   1.10e-01  1.31e+00       0.0
+   2   -1.24268897e+04  -2.34809888e+04   5.36e-09   2.02e-02  6.16e-01       0.0
+   3   -1.52243804e+04  -1.86389507e+04   1.41e-09   3.61e-03  2.02e-01       0.0
+   4   -1.58309985e+04  -1.77508911e+04   7.34e-10   9.49e-04  1.14e-01       0.0
+   5   -1.63201937e+04  -1.71448981e+04   3.21e-10   2.43e-04  4.93e-02       0.0
+   6   -1.65206772e+04  -1.69148430e+04   1.73e-10   6.39e-05  2.36e-02       0.0
+ Constructing starting basis...
+ Iter       primal obj         dual obj       pinf       dinf       gap      time
+   7   -1.67139867e+04  -1.68549948e+04   2.89e-11   2.38e-05  8.40e-03       0.0
+   8   -1.67560962e+04  -1.68058850e+04   8.65e-12   6.96e-06  2.97e-03       0.0
+   9   -1.67693796e+04  -1.67870585e+04   3.32e-12   1.70e-06  1.05e-03       0.0
+  10   -1.67753343e+04  -1.67814589e+04   9.66e-13   3.07e-07  3.65e-04       0.0
+  11   -1.67783846e+04  -1.67797984e+04   9.66e-14   1.10e-07  8.43e-05       0.0
+  12   -1.67786929e+04  -1.67788626e+04   2.11e-14   2.09e-09  1.01e-05       0.0
+  13   -1.67787947e+04  -1.67788319e+04   1.05e-15   6.96e-10  2.22e-06       0.0
+  14   -1.67788043e+04  -1.67788049e+04   1.15e-15   1.36e-11  3.45e-08       0.0
+  15*  -1.67788043e+04  -1.67788043e+04   1.75e-15   8.05e-16  4.29e-14       0.0
+Running crossover as requested
+    Primal residual before push phase:                  9.75e-12
+    Dual residual before push phase:                    3.66e-11
+    Number of dual pushes required:                     0
+    Number of primal pushes required:                   0
+Summary
+    Runtime:                                            0.01s
+    Status interior point solve:                        optimal
+    Status crossover:                                   optimal
+    objective value:                                    -1.67788043e+04
+    interior solution primal residual (abs/rel):        2.27e-13 / 1.34e-15
+    interior solution dual residual (abs/rel):          3.42e-14 / 1.11e-15
+    interior solution objective gap (abs/rel):          7.35e-10 / 4.38e-14
+    basic solution primal infeasibility:                0.00e+00
+    basic solution dual infeasibility:                  0.00e+00
+Ipx: IPM       optimal
+Ipx: Crossover optimal
+
+Model status        : Optimal
+IPM       iterations: 15
+Objective value     :  1.6778804337e+04
+P-D objective error :  2.1681344674e-16
+HiGHS run time      :          0.01

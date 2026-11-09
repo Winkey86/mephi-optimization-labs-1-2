@@ -1,0 +1,232 @@
+{
+  "base": {
+    "max_violation": 0.0,
+    "objective_recomputed": 120651.0,
+    "objective_error": 0.0,
+    "node_balance_residuals": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "warehouse_out_t": [
+      41.0,
+      51.0,
+      47.0,
+      56.0
+    ],
+    "warehouse_unused_t": [
+      22.0,
+      18.0,
+      12.0,
+      19.0
+    ],
+    "customer_in_t": [
+      45.0,
+      30.0,
+      45.0,
+      35.0,
+      40.0
+    ],
+    "tolerance": 1e-07
+  },
+  "overload": {
+    "max_violation": 0.0,
+    "objective_recomputed": 122208.6,
+    "objective_error": 0.0,
+    "node_balance_residuals": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "warehouse_out_t": [
+      43.2,
+      48.8,
+      47.0,
+      56.0
+    ],
+    "warehouse_unused_t": [
+      19.799999999999997,
+      20.200000000000003,
+      12.0,
+      19.0
+    ],
+    "customer_in_t": [
+      45.0,
+      30.0,
+      45.0,
+      35.0,
+      40.0
+    ],
+    "tolerance": 1e-07
+  },
+  "demand_growth": {
+    "max_violation": 0.0,
+    "objective_recomputed": 155634.0,
+    "objective_error": 0.0,
+    "node_balance_residuals": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "warehouse_out_t": [
+      52.0,
+      61.0,
+      56.0,
+      65.0
+    ],
+    "warehouse_unused_t": [
+      11.0,
+      8.0,
+      3.0,
+      10.0
+    ],
+    "customer_in_t": [
+      54.0,
+      36.0,
+      54.0,
+      42.0,
+      48.0
+    ],
+    "tolerance": 1e-07
+  },
+  "arc_failure": {
+    "max_violation": 0.0,
+    "objective_recomputed": 123511.0,
+    "objective_error": 0.0,
+    "node_balance_residuals": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "warehouse_out_t": [
+      41.0,
+      55.0,
+      47.0,
+      52.0
+    ],
+    "warehouse_unused_t": [
+      22.0,
+      14.0,
+      12.0,
+      23.0
+    ],
+    "customer_in_t": [
+      45.0,
+      30.0,
+      45.0,
+      35.0,
+      40.0
+    ],
+    "tolerance": 1e-07
+  },
+  "stress": {
+    "max_violation": 0.0,
+    "objective_recomputed": 158874.0,
+    "objective_error": 0.0,
+    "node_balance_residuals": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "warehouse_out_t": [
+      52.0,
+      61.0,
+      56.0,
+      65.0
+    ],
+    "warehouse_unused_t": [
+      11.0,
+      8.0,
+      3.0,
+      10.0
+    ],
+    "customer_in_t": [
+      54.0,
+      36.0,
+      54.0,
+      42.0,
+      48.0
+    ],
+    "tolerance": 1e-07
+  },
+  "integer": {
+    "max_violation": 0.0,
+    "objective_recomputed": 120651.0,
+    "objective_error": 0.0,
+    "node_balance_residuals": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "warehouse_out_t": [
+      41.0,
+      51.0,
+      47.0,
+      56.0
+    ],
+    "warehouse_unused_t": [
+      22.0,
+      18.0,
+      12.0,
+      19.0
+    ],
+    "customer_in_t": [
+      45.0,
+      30.0,
+      45.0,
+      35.0,
+      40.0
+    ],
+    "tolerance": 1e-07,
+    "max_integrality_error": 0.0
+  },
+  "lp_integrality_error": 0.0
+}

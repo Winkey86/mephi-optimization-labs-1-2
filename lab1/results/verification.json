@@ -1,0 +1,68 @@
+{
+  "base": {
+    "max_violation": 0.0,
+    "objective_recomputed": 44783.0,
+    "objective_error": 0.0,
+    "oven_usage_h": [
+      26.42,
+      27.216,
+      20.3
+    ],
+    "slack_h": [
+      0.0,
+      0.053999999999998494,
+      0.0
+    ],
+    "tolerance": 1e-07
+  },
+  "deficit": {
+    "max_violation": 0.0,
+    "objective_recomputed": 37975.56,
+    "objective_error": 0.0,
+    "oven_usage_h": [
+      21.136,
+      22.436000000000003,
+      17.536
+    ],
+    "slack_h": [
+      3.552713678800501e-15,
+      4.833999999999996,
+      2.7639999999999993
+    ],
+    "tolerance": 1e-07
+  },
+  "stress_certificate": {
+    "oven": 1,
+    "contract_requires_h": 6.0,
+    "capacity_h": 4.800000000000001,
+    "unavoidable_shortfall_h": 1.1999999999999993
+  },
+  "dual": {
+    "objective_with_constant": 44783.0,
+    "strong_duality_error": 0.0,
+    "dual_violation": 1.1368683772161603e-13,
+    "complementarity_max": 4.320099833421409e-12
+  },
+  "elastic": {
+    "max_violation": 0.0,
+    "objective_recomputed": 6908.0,
+    "objective_error": 0.0,
+    "oven_usage_h": [
+      6.0,
+      3.8,
+      4.5
+    ],
+    "slack_h": [
+      0.0,
+      9.835,
+      15.8
+    ],
+    "tolerance": 1e-07,
+    "capacity_additions_h": [
+      1.1999999999999993,
+      0.0,
+      0.0
+    ],
+    "normalized_objective": 0.04542013626040875
+  }
+}
