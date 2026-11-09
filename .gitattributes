@@ -1,0 +1,2 @@
+# HiGHS model exports are generated results, not handwritten implementation.
+*.lp linguist-generated=true
